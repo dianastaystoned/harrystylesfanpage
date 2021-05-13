@@ -1,0 +1,136 @@
+#footer
+{
+    background: black;
+    color: white;
+}
+#footer a
+{
+    text-decoration: none;
+    color: white;
+}
+#main img
+{
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(50%);
+}
+#carousel
+{
+    position: relative;
+}
+#carousel .overlay
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
+}
+#carousel .overlay .container,
+#carousel .overlay .row
+{
+    height: 100%;
+}
+.btn-harry
+{
+    background-color: #6688d1;
+    color: #0033a1;
+}
+.btn-harry:hover
+{
+    background-color: #808080;
+    color: whitesmoke;
+} 
+#acting
+{
+    background: #a6c2ff;
+    color: #485570;
+}  
+#acting img
+{
+    max-width: 100%;
+}
+.tooltip-inner 
+{
+    max-width: 200px;
+    padding: 3px 8px;
+    color: #fff;
+    text-align: center;
+    background-color: #1A5276;
+    border-radius: .25rem;
+}
+.tooltip.bs-tooltip-auto[x-placement^=top] .arrow::before, .tooltip.bs-tooltip-top .arrow::before 
+{
+    margin-left: -3px;
+    content: "";
+    border-width: 5px 5px 0;
+    border-top-color: #1A5276;
+}
+body
+{
+    background: linear-gradient(-100deg,#99fff6 50%, #ac99ff 50%);
+}
+#merch .container
+{
+    margin-top: 15%;
+}
+#merch .img
+{
+    max-width: 80%;
+}
+#merch .img-text
+{
+    width: 80%;
+    height: 300px;
+    display: block;
+    text-align: center;
+    padding: 20% 5%;
+    background: #d6b8f2;
+    color: #483757;
+}
+#merch .img-text h2
+{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+#merch .img-text p
+{
+    font-size: 18px;
+}
+#merch .single-box
+{
+    position: relative;
+    margin-bottom: 30px;
+}
+#merch .img-area img
+{
+    width: 80%;
+}
+#merch .carousel-indicators
+{
+    left: 0;
+    top:inherit;
+    bottom: -10px;
+}
+#merch .carousel-indicators li
+{
+    background: #000;
+    border-radius: 50%;
+    width: 10px;
+    height: 1px;
+}
+#merch .carousel-indicators .active
+{
+    background: #d6b8f2;
+}
+#merch .btn
+{
+    color: #5d4175;
+}
+#merch .btn:hover
+{
+    color: whitesmoke;
+} 
